@@ -1,0 +1,12 @@
+{% extends 'movies/_base.html' %}
+
+<html>
+    <body>
+        {% block content %}
+        <h1>My Favorite Movie Genres</h1>
+        <p>I like movies with intellectual depth to them and not just dopamine action fight scenes/funny one liners the entire time.</p>
+        {% load static %}
+        <img src="{% static 'movies/me.jpg' %}" alt="My Image" style="width:200;">
+        {% endblock %}
+    </body>
+</html>
